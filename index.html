@@ -186,7 +186,7 @@ html, body, #map {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Central and northern areas show high Topographical Wetness Index in red indicating high soil moisture and water accumulation potential, while eastern and scattered blue patches show low TWI indicating drier, well-drained terrain near Mysuru.';
+                this._div.innerHTML = 'Blue areas have high Topographical Wetness Index meaning flat, convergent terrain that collects and retains water, while red areas have low TWI meaning steep, divergent slopes that shed water quickly and stay dry.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
